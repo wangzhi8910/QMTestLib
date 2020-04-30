@@ -28,10 +28,15 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/wangzhi8910/QMTestLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  #s.ios.deployment_target = '8.0'
 
   s.source_files = 'QMTestLib/Classes/**/*'
   
+  # iOS版本
+  s.ios.deployment_target = '9.0'
+
+  # Swift版本
+  s.swift_versions = '5.0'
   # s.resource_bundles = {
   #   'QMTestLib' => ['QMTestLib/Assets/*.png']
   # }

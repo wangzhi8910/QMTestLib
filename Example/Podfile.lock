@@ -1,0 +1,16 @@
+PODS:
+  - QMTestLib (0.1.0)
+
+DEPENDENCIES:
+  - QMTestLib (from `../`)
+
+EXTERNAL SOURCES:
+  QMTestLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QMTestLib: b3ef0a3e806f400cb354c7fe0f0df7fb1b7ca617
+
+PODFILE CHECKSUM: 17fd9bd98ee223d8487a20fd5c04b678191f0ad0
+
+COCOAPODS: 1.9.0.beta.2

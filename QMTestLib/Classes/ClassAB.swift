@@ -6,3 +6,14 @@
 //
 
 import Foundation
+public class ClassAB: NSObject {
+    public static func printa() {
+        print("aaa")
+    }
+}
+
+class ClassCD: NSObject {
+    static func printb() {
+        print("bbb")
+    }
+}

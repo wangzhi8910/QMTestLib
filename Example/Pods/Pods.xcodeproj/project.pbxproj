@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0027707AE3638F795AEC01FD1E392809 /* Pods-QMTestLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 057DC6882EAEC453F093257E8630F5D4 /* Pods-QMTestLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0076A6315ADF9C3EEFF85482CF3460DE /* Pods-QMTestLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14F6EFA550074E88C3914D18F6B31A6D /* Pods-QMTestLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2027D212D9998B531B134F54BC9283E0 /* Pods-QMTestLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D02ED751071C736E3ED3CA9F17D9102 /* Pods-QMTestLib_Tests-dummy.m */; };
+		214E622EA19E5108945ED4048793A595 /* QMTestLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 499AED9743CF87B385015D3B12E24255 /* QMTestLib-dummy.m */; };
+		4A34B568373D93A5B14779FE9C6DA8DE /* QMTestLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5B635327A6C65D9626172B4C4C21149 /* QMTestLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CCA2F7C91F213FAFBD762039DC3346D /* ClassAB.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9804224CCBA0DCEF769D78DC32521D5 /* ClassAB.swift */; };
+		4FD23EEDD9ACFDE19500EA2BCBCA2FDE /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C255886AF0E1155183F881DD01077B /* ReplaceMe.swift */; };
+		8967FF81313547E8FF93B93BF742C5BA /* Pods-QMTestLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45096741EA8732D819154D73175B8EAE /* Pods-QMTestLib_Example-dummy.m */; };
+		98C592D2159574672D0C8BABB78EDECE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B20F3A910A1B7D563C61D0519FB5BBFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D2D77CA268153DB508802E9B622DADCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AED4AF2281E6554A8B852D0032EAD05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0E6DB38CC34620EAF1647E045895500;
+			remoteInfo = "Pods-QMTestLib_Example";
+		};
+		AE39503FC8144D8760A22E4F1D0AE0C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60529728419E57E067361408C831F0B8;
+			remoteInfo = QMTestLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02F4F71F9BAF972A44C61AB344F32079 /* Pods-QMTestLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QMTestLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		057DC6882EAEC453F093257E8630F5D4 /* Pods-QMTestLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QMTestLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		06F05CA1B5F21A7B4C1864F01CB51346 /* Pods-QMTestLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QMTestLib_Example.modulemap"; sourceTree = "<group>"; };
+		14F6EFA550074E88C3914D18F6B31A6D /* Pods-QMTestLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QMTestLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		1C0455D67EE3A1D831220C13F70F19C7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1F983E5D89FDD19BCDA19D6175AB165A /* Pods-QMTestLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QMTestLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2654477A598E1B1185C42A4C0C9D0BCF /* Pods-QMTestLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QMTestLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		269399FA20E2B5FE0DF6A1D1ECE13BD1 /* QMTestLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QMTestLib.framework; path = QMTestLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B6B3CD74B02950B7C009828B0E9CF3 /* QMTestLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QMTestLib.modulemap; sourceTree = "<group>"; };
+		306AAF99F0E8D3EEAE9464D90BB37F11 /* Pods-QMTestLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QMTestLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3780D0647B54D2C81EE769E030FEE110 /* Pods_QMTestLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QMTestLib_Tests.framework; path = "Pods-QMTestLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D02ED751071C736E3ED3CA9F17D9102 /* Pods-QMTestLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QMTestLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		43825B76B53384F4870A48A425FA21D0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		45096741EA8732D819154D73175B8EAE /* Pods-QMTestLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QMTestLib_Example-dummy.m"; sourceTree = "<group>"; };
+		499AED9743CF87B385015D3B12E24255 /* QMTestLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QMTestLib-dummy.m"; sourceTree = "<group>"; };
+		4BBE330C3ECE76D4C51A6FABC4CAADF0 /* QMTestLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QMTestLib.debug.xcconfig; sourceTree = "<group>"; };
+		51C255886AF0E1155183F881DD01077B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = QMTestLib/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		5FB5DD4E5B4717D60D558B0FD8F2AD1A /* QMTestLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QMTestLib-prefix.pch"; sourceTree = "<group>"; };
+		6800B05A953879B3EC9BA96B4B848EF5 /* QMTestLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QMTestLib.release.xcconfig; sourceTree = "<group>"; };
+		775FA6396675EB2C5307BAE8FEEC0AB0 /* Pods-QMTestLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QMTestLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7E54C7D50055F180B335E4E6016FBFE8 /* Pods-QMTestLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QMTestLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7E91C5929CDDDCC9E05DDFBCB6C44096 /* Pods-QMTestLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QMTestLib_Tests.modulemap"; sourceTree = "<group>"; };
+		8344D7FA757E190151188DCEB4C69A9B /* Pods-QMTestLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QMTestLib_Tests-Info.plist"; sourceTree = "<group>"; };
+		8A33206E98C52F268D5855375D6B0067 /* Pods-QMTestLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QMTestLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		928261B049668FAFF22E610A6645932E /* Pods-QMTestLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QMTestLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		95005D0B1A736027A9BBFF1E15359FD6 /* QMTestLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QMTestLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A82F5B7EAC2B7B4C1722FD31017C919F /* Pods_QMTestLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QMTestLib_Example.framework; path = "Pods-QMTestLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD7D4FBCD44400082C5CEA34449D211 /* QMTestLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QMTestLib-Info.plist"; sourceTree = "<group>"; };
+		C4570FE2918801A808ED57E782C99DF8 /* Pods-QMTestLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QMTestLib_Example-Info.plist"; sourceTree = "<group>"; };
+		D5B635327A6C65D9626172B4C4C21149 /* QMTestLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QMTestLib-umbrella.h"; sourceTree = "<group>"; };
+		E9F5C8D7F23616A1CB6B0686A16CE858 /* Pods-QMTestLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QMTestLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F9804224CCBA0DCEF769D78DC32521D5 /* ClassAB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClassAB.swift; path = QMTestLib/Classes/ClassAB.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8D1F989CD1E10BF89263AB18781AEE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20F3A910A1B7D563C61D0519FB5BBFB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4B01A3C3EBF5FA2802ECFFBD3D6CD0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C592D2159574672D0C8BABB78EDECE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE776A483C9725306AD245971557B5CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D77CA268153DB508802E9B622DADCD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02B0E884C3B01DC6451F5E9D9E98CDF2 /* QMTestLib */ = {
+			isa = PBXGroup;
+			children = (
+				F9804224CCBA0DCEF769D78DC32521D5 /* ClassAB.swift */,
+				51C255886AF0E1155183F881DD01077B /* ReplaceMe.swift */,
+				91F665D1829035A660743E8AB2ED6C76 /* Pod */,
+				C99637315869A94BA9E6F1BF8F74C2A3 /* Support Files */,
+			);
+			name = QMTestLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		0D2B1CD8DC9A9976F6CE10C864448943 /* Pods-QMTestLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7E91C5929CDDDCC9E05DDFBCB6C44096 /* Pods-QMTestLib_Tests.modulemap */,
+				2654477A598E1B1185C42A4C0C9D0BCF /* Pods-QMTestLib_Tests-acknowledgements.markdown */,
+				775FA6396675EB2C5307BAE8FEEC0AB0 /* Pods-QMTestLib_Tests-acknowledgements.plist */,
+				3D02ED751071C736E3ED3CA9F17D9102 /* Pods-QMTestLib_Tests-dummy.m */,
+				8344D7FA757E190151188DCEB4C69A9B /* Pods-QMTestLib_Tests-Info.plist */,
+				057DC6882EAEC453F093257E8630F5D4 /* Pods-QMTestLib_Tests-umbrella.h */,
+				E9F5C8D7F23616A1CB6B0686A16CE858 /* Pods-QMTestLib_Tests.debug.xcconfig */,
+				02F4F71F9BAF972A44C61AB344F32079 /* Pods-QMTestLib_Tests.release.xcconfig */,
+			);
+			name = "Pods-QMTestLib_Tests";
+			path = "Target Support Files/Pods-QMTestLib_Tests";
+			sourceTree = "<group>";
+		};
+		2EDFF7CEC6B2CDB6A8F21DDFFFAAC217 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02B0E884C3B01DC6451F5E9D9E98CDF2 /* QMTestLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		52FEB9B915333DD6F43357BAA5C71357 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				829AFFDACF179B8040B0A1A631027173 /* Pods-QMTestLib_Example */,
+				0D2B1CD8DC9A9976F6CE10C864448943 /* Pods-QMTestLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		829AFFDACF179B8040B0A1A631027173 /* Pods-QMTestLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				06F05CA1B5F21A7B4C1864F01CB51346 /* Pods-QMTestLib_Example.modulemap */,
+				1F983E5D89FDD19BCDA19D6175AB165A /* Pods-QMTestLib_Example-acknowledgements.markdown */,
+				8A33206E98C52F268D5855375D6B0067 /* Pods-QMTestLib_Example-acknowledgements.plist */,
+				45096741EA8732D819154D73175B8EAE /* Pods-QMTestLib_Example-dummy.m */,
+				928261B049668FAFF22E610A6645932E /* Pods-QMTestLib_Example-frameworks.sh */,
+				C4570FE2918801A808ED57E782C99DF8 /* Pods-QMTestLib_Example-Info.plist */,
+				14F6EFA550074E88C3914D18F6B31A6D /* Pods-QMTestLib_Example-umbrella.h */,
+				7E54C7D50055F180B335E4E6016FBFE8 /* Pods-QMTestLib_Example.debug.xcconfig */,
+				306AAF99F0E8D3EEAE9464D90BB37F11 /* Pods-QMTestLib_Example.release.xcconfig */,
+			);
+			name = "Pods-QMTestLib_Example";
+			path = "Target Support Files/Pods-QMTestLib_Example";
+			sourceTree = "<group>";
+		};
+		91F665D1829035A660743E8AB2ED6C76 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1C0455D67EE3A1D831220C13F70F19C7 /* LICENSE */,
+				95005D0B1A736027A9BBFF1E15359FD6 /* QMTestLib.podspec */,
+				43825B76B53384F4870A48A425FA21D0 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B3CD7C1FA00CD46862A8442FB6CF27C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A82F5B7EAC2B7B4C1722FD31017C919F /* Pods_QMTestLib_Example.framework */,
+				3780D0647B54D2C81EE769E030FEE110 /* Pods_QMTestLib_Tests.framework */,
+				269399FA20E2B5FE0DF6A1D1ECE13BD1 /* QMTestLib.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C99637315869A94BA9E6F1BF8F74C2A3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				29B6B3CD74B02950B7C009828B0E9CF3 /* QMTestLib.modulemap */,
+				499AED9743CF87B385015D3B12E24255 /* QMTestLib-dummy.m */,
+				AAD7D4FBCD44400082C5CEA34449D211 /* QMTestLib-Info.plist */,
+				5FB5DD4E5B4717D60D558B0FD8F2AD1A /* QMTestLib-prefix.pch */,
+				D5B635327A6C65D9626172B4C4C21149 /* QMTestLib-umbrella.h */,
+				4BBE330C3ECE76D4C51A6FABC4CAADF0 /* QMTestLib.debug.xcconfig */,
+				6800B05A953879B3EC9BA96B4B848EF5 /* QMTestLib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QMTestLib";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2EDFF7CEC6B2CDB6A8F21DDFFFAAC217 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B3CD7C1FA00CD46862A8442FB6CF27C1 /* Products */,
+				52FEB9B915333DD6F43357BAA5C71357 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5148F11E30FFF38AAAE86A5F2CB628AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0027707AE3638F795AEC01FD1E392809 /* Pods-QMTestLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889663DF1F645AC2B417015E90600F9A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A34B568373D93A5B14779FE9C6DA8DE /* QMTestLib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE63B9B283B0E30BA94E04D795727996 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0076A6315ADF9C3EEFF85482CF3460DE /* Pods-QMTestLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		60529728419E57E067361408C831F0B8 /* QMTestLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC194559BFC7F68FC74EBDE675C58115 /* Build configuration list for PBXNativeTarget "QMTestLib" */;
+			buildPhases = (
+				889663DF1F645AC2B417015E90600F9A /* Headers */,
+				9D9352B283E484417A5995D4D4885C74 /* Sources */,
+				A8D1F989CD1E10BF89263AB18781AEE8 /* Frameworks */,
+				905DDE69A51751FD39E406AC5A055D30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QMTestLib;
+			productName = QMTestLib;
+			productReference = 269399FA20E2B5FE0DF6A1D1ECE13BD1 /* QMTestLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		81B3BC8F883B82BD6F83A5C9E2FC965F /* Pods-QMTestLib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E330E52CB81F4740D5F27E00C2C7404 /* Build configuration list for PBXNativeTarget "Pods-QMTestLib_Tests" */;
+			buildPhases = (
+				5148F11E30FFF38AAAE86A5F2CB628AE /* Headers */,
+				26AB0A1DC97F22B2A37974CCA5652BDB /* Sources */,
+				C4B01A3C3EBF5FA2802ECFFBD3D6CD0F /* Frameworks */,
+				B7BCD121ACE08033ECA7130F462AB77D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC888917310F1CBF74280E3D12C5BC57 /* PBXTargetDependency */,
+			);
+			name = "Pods-QMTestLib_Tests";
+			productName = "Pods-QMTestLib_Tests";
+			productReference = 3780D0647B54D2C81EE769E030FEE110 /* Pods_QMTestLib_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0E6DB38CC34620EAF1647E045895500 /* Pods-QMTestLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4A68DA459A24E4B9DBCB67BEE372F1C /* Build configuration list for PBXNativeTarget "Pods-QMTestLib_Example" */;
+			buildPhases = (
+				AE63B9B283B0E30BA94E04D795727996 /* Headers */,
+				C0597C729150BCF41E6675BF1A59D0E7 /* Sources */,
+				DE776A483C9725306AD245971557B5CD /* Frameworks */,
+				1D5BFB6A1B8B2D121DD67345B0037CAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AA020B67FA273F91FCA8F8DEA800E95 /* PBXTargetDependency */,
+			);
+			name = "Pods-QMTestLib_Example";
+			productName = "Pods-QMTestLib_Example";
+			productReference = A82F5B7EAC2B7B4C1722FD31017C919F /* Pods_QMTestLib_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B3CD7C1FA00CD46862A8442FB6CF27C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0E6DB38CC34620EAF1647E045895500 /* Pods-QMTestLib_Example */,
+				81B3BC8F883B82BD6F83A5C9E2FC965F /* Pods-QMTestLib_Tests */,
+				60529728419E57E067361408C831F0B8 /* QMTestLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D5BFB6A1B8B2D121DD67345B0037CAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905DDE69A51751FD39E406AC5A055D30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7BCD121ACE08033ECA7130F462AB77D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26AB0A1DC97F22B2A37974CCA5652BDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2027D212D9998B531B134F54BC9283E0 /* Pods-QMTestLib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D9352B283E484417A5995D4D4885C74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCA2F7C91F213FAFBD762039DC3346D /* ClassAB.swift in Sources */,
+				214E622EA19E5108945ED4048793A595 /* QMTestLib-dummy.m in Sources */,
+				4FD23EEDD9ACFDE19500EA2BCBCA2FDE /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0597C729150BCF41E6675BF1A59D0E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8967FF81313547E8FF93B93BF742C5BA /* Pods-QMTestLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AA020B67FA273F91FCA8F8DEA800E95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QMTestLib;
+			target = 60529728419E57E067361408C831F0B8 /* QMTestLib */;
+			targetProxy = AE39503FC8144D8760A22E4F1D0AE0C7 /* PBXContainerItemProxy */;
+		};
+		FC888917310F1CBF74280E3D12C5BC57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QMTestLib_Example";
+			target = E0E6DB38CC34620EAF1647E045895500 /* Pods-QMTestLib_Example */;
+			targetProxy = 7AED4AF2281E6554A8B852D0032EAD05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EDD731B9DC8D1021891098A4A0EC1E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02F4F71F9BAF972A44C61AB344F32079 /* Pods-QMTestLib_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QMTestLib_Tests/Pods-QMTestLib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QMTestLib_Tests/Pods-QMTestLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		29D572B081F3501E759FD21964C214E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 306AAF99F0E8D3EEAE9464D90BB37F11 /* Pods-QMTestLib_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QMTestLib_Example/Pods-QMTestLib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QMTestLib_Example/Pods-QMTestLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4E09CD8AEEDF5B04183B45C06AB8E641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E54C7D50055F180B335E4E6016FBFE8 /* Pods-QMTestLib_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QMTestLib_Example/Pods-QMTestLib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QMTestLib_Example/Pods-QMTestLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5320F9504E47911251C9C84D090B0A59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BBE330C3ECE76D4C51A6FABC4CAADF0 /* QMTestLib.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QMTestLib/QMTestLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QMTestLib/QMTestLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QMTestLib/QMTestLib.modulemap";
+				PRODUCT_MODULE_NAME = QMTestLib;
+				PRODUCT_NAME = QMTestLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ECED35BC43F326C27E1CBC0AF1F92C37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6800B05A953879B3EC9BA96B4B848EF5 /* QMTestLib.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QMTestLib/QMTestLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QMTestLib/QMTestLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QMTestLib/QMTestLib.modulemap";
+				PRODUCT_MODULE_NAME = QMTestLib;
+				PRODUCT_NAME = QMTestLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FA7F42D17B97BE3C3B7FB133DBED7987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9F5C8D7F23616A1CB6B0686A16CE858 /* Pods-QMTestLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QMTestLib_Tests/Pods-QMTestLib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QMTestLib_Tests/Pods-QMTestLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E330E52CB81F4740D5F27E00C2C7404 /* Build configuration list for PBXNativeTarget "Pods-QMTestLib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7F42D17B97BE3C3B7FB133DBED7987 /* Debug */,
+				1EDD731B9DC8D1021891098A4A0EC1E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4A68DA459A24E4B9DBCB67BEE372F1C /* Build configuration list for PBXNativeTarget "Pods-QMTestLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E09CD8AEEDF5B04183B45C06AB8E641 /* Debug */,
+				29D572B081F3501E759FD21964C214E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC194559BFC7F68FC74EBDE675C58115 /* Build configuration list for PBXNativeTarget "QMTestLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5320F9504E47911251C9C84D090B0A59 /* Debug */,
+				ECED35BC43F326C27E1CBC0AF1F92C37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

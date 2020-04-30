@@ -1,0 +1,6 @@
+framework module QMTestLib {
+  umbrella header "QMTestLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

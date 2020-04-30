@@ -1,0 +1,6 @@
+framework module Pods_QMTestLib_Example {
+  umbrella header "Pods-QMTestLib_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
