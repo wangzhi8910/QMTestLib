@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QMTestLib_Example' do
+  pod 'QMTestLib', :path => '../'
+
+  target 'QMTestLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
